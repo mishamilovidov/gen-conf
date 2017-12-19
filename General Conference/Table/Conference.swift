@@ -16,7 +16,7 @@ struct Conference : TableMapping, RowConvertible {
     var id: Int
     var description: String
     var abbr: String
-    var year: String
+    var year: Int
     var annual: String
     var issueDate: String
     
@@ -39,7 +39,7 @@ struct Conference : TableMapping, RowConvertible {
         id = 0
         description = ""
         abbr = ""
-        year = ""
+        year = 0
         annual = ""
         issueDate = ""
     }

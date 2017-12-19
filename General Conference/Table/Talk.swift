@@ -15,12 +15,12 @@ struct Talk : TableMapping, RowConvertible {
     
     var id: Int
     var corpus: String
-    var url: String
+    var url: String?
     var title: String
     var date: String
     var speakerId: Int
-    var listenUrl: String
-    var watchUrl: String
+    var listenUrl: String?
+    var watchUrl: String?
     
     // MARK: - Table mapping
     

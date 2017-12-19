@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C6EC57901FE9539B00095F16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC578F1FE9539B00095F16 /* AppDelegate.swift */; };
-		C6EC57921FE9539B00095F16 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC57911FE9539B00095F16 /* MasterViewController.swift */; };
-		C6EC57941FE9539B00095F16 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC57931FE9539B00095F16 /* DetailViewController.swift */; };
 		C6EC57971FE9539B00095F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EC57951FE9539B00095F16 /* Main.storyboard */; };
 		C6EC57991FE9539B00095F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EC57981FE9539B00095F16 /* Assets.xcassets */; };
 		C6EC579C1FE9539B00095F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EC579A1FE9539B00095F16 /* LaunchScreen.storyboard */; };
@@ -20,6 +18,10 @@
 		C6EC57B81FE9598000095F16 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC57B71FE9598000095F16 /* Conference.swift */; };
 		C6EC57BA1FE9599300095F16 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC57B91FE9599300095F16 /* Speaker.swift */; };
 		C6EC57BC1FE959A300095F16 /* Talk.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC57BB1FE959A300095F16 /* Talk.swift */; };
+		C6EC57BE1FE9606100095F16 /* ConferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC57BD1FE9606100095F16 /* ConferencesViewController.swift */; };
+		C6EC57C01FE966B400095F16 /* ConferenceTalksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC57BF1FE966B400095F16 /* ConferenceTalksViewController.swift */; };
+		C6EC57C21FE974E600095F16 /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC57C11FE974E600095F16 /* TalkViewController.swift */; };
+		C6EC57C61FE97C2F00095F16 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EC57C51FE97C2F00095F16 /* WebKit.framework */; };
 		FA2135A30DB646C92791FC29 /* Pods_General_Conference.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA42C79223A7E5A1DF88F1A /* Pods_General_Conference.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +30,6 @@
 		93E73FF176ECEF40ABA3D853 /* Pods-General Conference.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-General Conference.release.xcconfig"; path = "Pods/Target Support Files/Pods-General Conference/Pods-General Conference.release.xcconfig"; sourceTree = "<group>"; };
 		C6EC578C1FE9539B00095F16 /* General Conference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "General Conference.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6EC578F1FE9539B00095F16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6EC57911FE9539B00095F16 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		C6EC57931FE9539B00095F16 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C6EC57961FE9539B00095F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6EC57981FE9539B00095F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6EC579B1FE9539B00095F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +41,10 @@
 		C6EC57B71FE9598000095F16 /* Conference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
 		C6EC57B91FE9599300095F16 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 		C6EC57BB1FE959A300095F16 /* Talk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talk.swift; sourceTree = "<group>"; };
+		C6EC57BD1FE9606100095F16 /* ConferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferencesViewController.swift; sourceTree = "<group>"; };
+		C6EC57BF1FE966B400095F16 /* ConferenceTalksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceTalksViewController.swift; sourceTree = "<group>"; };
+		C6EC57C11FE974E600095F16 /* TalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkViewController.swift; sourceTree = "<group>"; };
+		C6EC57C51FE97C2F00095F16 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		FBA42C79223A7E5A1DF88F1A /* Pods_General_Conference.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_General_Conference.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6EC57C61FE97C2F00095F16 /* WebKit.framework in Frameworks */,
 				FA2135A30DB646C92791FC29 /* Pods_General_Conference.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +73,7 @@
 		76609B1F6C14AB030B08E5F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C6EC57C51FE97C2F00095F16 /* WebKit.framework */,
 				FBA42C79223A7E5A1DF88F1A /* Pods_General_Conference.framework */,
 			);
 			name = Frameworks;
@@ -117,9 +123,10 @@
 		C6EC57A51FE9545800095F16 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C6EC57911FE9539B00095F16 /* MasterViewController.swift */,
 				C6EC578F1FE9539B00095F16 /* AppDelegate.swift */,
-				C6EC57931FE9539B00095F16 /* DetailViewController.swift */,
+				C6EC57BD1FE9606100095F16 /* ConferencesViewController.swift */,
+				C6EC57BF1FE966B400095F16 /* ConferenceTalksViewController.swift */,
+				C6EC57C11FE974E600095F16 /* TalkViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -298,14 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6EC57941FE9539B00095F16 /* DetailViewController.swift in Sources */,
 				C6EC57B11FE9571E00095F16 /* GConDatabase.swift in Sources */,
 				C6EC57B61FE9596E00095F16 /* ConferenceSession.swift in Sources */,
 				C6EC57BA1FE9599300095F16 /* Speaker.swift in Sources */,
+				C6EC57BE1FE9606100095F16 /* ConferencesViewController.swift in Sources */,
 				C6EC57B81FE9598000095F16 /* Conference.swift in Sources */,
 				C6EC57BC1FE959A300095F16 /* Talk.swift in Sources */,
+				C6EC57C01FE966B400095F16 /* ConferenceTalksViewController.swift in Sources */,
 				C6EC57B41FE9595D00095F16 /* ConferenceTalk.swift in Sources */,
-				C6EC57921FE9539B00095F16 /* MasterViewController.swift in Sources */,
+				C6EC57C21FE974E600095F16 /* TalkViewController.swift in Sources */,
 				C6EC57901FE9539B00095F16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
