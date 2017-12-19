@@ -13,6 +13,13 @@
 		C6EC57971FE9539B00095F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EC57951FE9539B00095F16 /* Main.storyboard */; };
 		C6EC57991FE9539B00095F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EC57981FE9539B00095F16 /* Assets.xcassets */; };
 		C6EC579C1FE9539B00095F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EC579A1FE9539B00095F16 /* LaunchScreen.storyboard */; };
+		C6EC57AF1FE9563900095F16 /* core.23.db in Resources */ = {isa = PBXBuildFile; fileRef = C6EC57AE1FE9563900095F16 /* core.23.db */; };
+		C6EC57B11FE9571E00095F16 /* GConDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC57B01FE9571E00095F16 /* GConDatabase.swift */; };
+		C6EC57B41FE9595D00095F16 /* ConferenceTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC57B31FE9595D00095F16 /* ConferenceTalk.swift */; };
+		C6EC57B61FE9596E00095F16 /* ConferenceSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC57B51FE9596E00095F16 /* ConferenceSession.swift */; };
+		C6EC57B81FE9598000095F16 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC57B71FE9598000095F16 /* Conference.swift */; };
+		C6EC57BA1FE9599300095F16 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC57B91FE9599300095F16 /* Speaker.swift */; };
+		C6EC57BC1FE959A300095F16 /* Talk.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC57BB1FE959A300095F16 /* Talk.swift */; };
 		FA2135A30DB646C92791FC29 /* Pods_General_Conference.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA42C79223A7E5A1DF88F1A /* Pods_General_Conference.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +34,13 @@
 		C6EC57981FE9539B00095F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6EC579B1FE9539B00095F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6EC579D1FE9539B00095F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6EC57AE1FE9563900095F16 /* core.23.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = core.23.db; sourceTree = "<group>"; };
+		C6EC57B01FE9571E00095F16 /* GConDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GConDatabase.swift; sourceTree = "<group>"; };
+		C6EC57B31FE9595D00095F16 /* ConferenceTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceTalk.swift; sourceTree = "<group>"; };
+		C6EC57B51FE9596E00095F16 /* ConferenceSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceSession.swift; sourceTree = "<group>"; };
+		C6EC57B71FE9598000095F16 /* Conference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
+		C6EC57B91FE9599300095F16 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
+		C6EC57BB1FE959A300095F16 /* Talk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talk.swift; sourceTree = "<group>"; };
 		FBA42C79223A7E5A1DF88F1A /* Pods_General_Conference.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_General_Conference.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,13 +100,7 @@
 				C6EC57AA1FE9548500095F16 /* Assets */,
 				C6EC57A71FE9546400095F16 /* Utilities and Extensions */,
 				C6EC57A91FE9547A00095F16 /* Supporting Files */,
-				C6EC578F1FE9539B00095F16 /* AppDelegate.swift */,
-				C6EC57911FE9539B00095F16 /* MasterViewController.swift */,
-				C6EC57931FE9539B00095F16 /* DetailViewController.swift */,
-				C6EC57951FE9539B00095F16 /* Main.storyboard */,
 				C6EC57981FE9539B00095F16 /* Assets.xcassets */,
-				C6EC579A1FE9539B00095F16 /* LaunchScreen.storyboard */,
-				C6EC579D1FE9539B00095F16 /* Info.plist */,
 			);
 			path = "General Conference";
 			sourceTree = "<group>";
@@ -100,6 +108,8 @@
 		C6EC57A31FE9544E00095F16 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C6EC57B21FE9590C00095F16 /* Table */,
+				C6EC57B01FE9571E00095F16 /* GConDatabase.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -107,6 +117,9 @@
 		C6EC57A51FE9545800095F16 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C6EC57911FE9539B00095F16 /* MasterViewController.swift */,
+				C6EC578F1FE9539B00095F16 /* AppDelegate.swift */,
+				C6EC57931FE9539B00095F16 /* DetailViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -121,6 +134,7 @@
 		C6EC57A91FE9547A00095F16 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C6EC579D1FE9539B00095F16 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -128,6 +142,7 @@
 		C6EC57AA1FE9548500095F16 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				C6EC57AE1FE9563900095F16 /* core.23.db */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -135,8 +150,22 @@
 		C6EC57AB1FE9548D00095F16 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C6EC57951FE9539B00095F16 /* Main.storyboard */,
+				C6EC579A1FE9539B00095F16 /* LaunchScreen.storyboard */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		C6EC57B21FE9590C00095F16 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				C6EC57B31FE9595D00095F16 /* ConferenceTalk.swift */,
+				C6EC57B51FE9596E00095F16 /* ConferenceSession.swift */,
+				C6EC57B71FE9598000095F16 /* Conference.swift */,
+				C6EC57B91FE9599300095F16 /* Speaker.swift */,
+				C6EC57BB1FE959A300095F16 /* Talk.swift */,
+			);
+			path = Table;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +232,7 @@
 			files = (
 				C6EC579C1FE9539B00095F16 /* LaunchScreen.storyboard in Resources */,
 				C6EC57991FE9539B00095F16 /* Assets.xcassets in Resources */,
+				C6EC57AF1FE9563900095F16 /* core.23.db in Resources */,
 				C6EC57971FE9539B00095F16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +299,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6EC57941FE9539B00095F16 /* DetailViewController.swift in Sources */,
+				C6EC57B11FE9571E00095F16 /* GConDatabase.swift in Sources */,
+				C6EC57B61FE9596E00095F16 /* ConferenceSession.swift in Sources */,
+				C6EC57BA1FE9599300095F16 /* Speaker.swift in Sources */,
+				C6EC57B81FE9598000095F16 /* Conference.swift in Sources */,
+				C6EC57BC1FE959A300095F16 /* Talk.swift in Sources */,
+				C6EC57B41FE9595D00095F16 /* ConferenceTalk.swift in Sources */,
 				C6EC57921FE9539B00095F16 /* MasterViewController.swift in Sources */,
 				C6EC57901FE9539B00095F16 /* AppDelegate.swift in Sources */,
 			);
